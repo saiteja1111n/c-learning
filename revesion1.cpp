@@ -13,6 +13,7 @@ boolean type: boolean true or false*/
 //can use both #define r const to change the value 
 // && and || are logival operations
 #include<iostream>
+#include<sstream>
 using namespace std;
 const double pi=3.141;//what is the difference between const and #define
 #define newline '\n'
@@ -44,7 +45,11 @@ int main() {
 	cin>>s;//it only takes only until it encounters space
 	cout<<"\n"<<s<<"\ngive another value ";
 	getline(cin,s);// always use getline to get data from console
+	int h;
+	stringstream(s)>>h;//it nearly acts like a convertor from string but with some complications 
+	//if string is "3 4" value stroed is '3' 
 	//dont know if there is any reason for using getline than cin
-	cout<<"\n"<<s;
+	cout<<"\n"<<s<<"\na="<<h;
+	
 }
 
