@@ -4,7 +4,7 @@
 //uning namespace to get library files 
 //using \" to get "" show in string
 //string is a complex datatype even in c++
-// used / to get stirng  to new line
+// used \ to get stirng  to new line
 /*four types oof data 
 character: basic is char of one byte 
 integer: basic is int (there are unsigned, signed , short, long, long long)
